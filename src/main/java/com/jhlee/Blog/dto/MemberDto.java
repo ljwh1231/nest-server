@@ -27,6 +27,4 @@ public class MemberDto {
 
     @NotBlank
     private String email;
-
-    private List<BoardDto> boardList;
 }

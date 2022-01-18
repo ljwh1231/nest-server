@@ -32,9 +32,6 @@ public class Member {
     @Column(length = 100, nullable = false)
     private String email;
 
-    @OneToMany(mappedBy = "member", cascade = CascadeType.MERGE, orphanRemoval = true)
-    private List<Board> boardList = new ArrayList<>();
-
     @Builder
     public Member(String grade, String name, String password, String email) {
         this.grade = grade;
