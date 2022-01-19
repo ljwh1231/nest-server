@@ -57,9 +57,3 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
-
-def generatedDir = "$buildDir"
-
-sourceSets {
-	main.java.srcDir generatedDir
-}
