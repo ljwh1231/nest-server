@@ -24,6 +24,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.hibernate:hibernate-core'
 
+	// Spring security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
 	// Slf4j Logger
 	implementation 'org.slf4j:slf4j-api:1.7.32'
 	implementation 'org.slf4j:jcl-over-slf4j'
