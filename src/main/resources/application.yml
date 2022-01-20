@@ -5,8 +5,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/nest
     driver-class-name: com.mysql.cj.jdbc.Driver
-    user: root
     password: alska963
+    username: root
 
   aop:
     proxy-target-class: true
