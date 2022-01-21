@@ -11,6 +11,7 @@ import java.util.*;
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @Data
 @Table(name = "MEMBER")
+@Entity
 public class Member implements UserDetails {
 
     @Id
